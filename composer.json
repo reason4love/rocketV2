@@ -1,0 +1,25 @@
+{
+    "name": "hector/v2b-adapter",
+    "description": "a package for v2board to adapter rocket maker",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector",
+            "email": "liuxiaohua996@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hector\\V2bAdapter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hector\\V2bAdapter\\RocketServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
